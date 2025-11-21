@@ -18,7 +18,7 @@ public class NorenDExampleApp {
 
     public static void main(String[] args) {
         System.out.println("Hello and Welcome to Noren!");
-        NorenDApiJava api = new com.noren.javaapi.NorenDApiJava("http://rama.kambala.co.in:9990/DealerWClient/");
+        NorenDApiJava api = new com.noren.javaapi.NorenDApiJava("https://rama.kambala.co.in/DealerWClient/");
         
         String response = api.login("TSTDLR1", "YGb@765", "RRRRR1997R", "Krishna_DAPI", "krishpernad123", "java-");
         System.out.println(response);
