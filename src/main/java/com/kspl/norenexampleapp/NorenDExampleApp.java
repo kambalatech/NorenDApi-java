@@ -28,11 +28,11 @@ public class NorenDExampleApp {
         System.out.println(securityinfo.toString());
 
         
-        JSONObject reply = api.place_order("B","C","TSTINV3", "NSE", "CANBK-EQ", 1, 0, "LMT", 220.0, "java", null, null, null, null, null, null); 
+        JSONObject reply = api.place_order("B","C","TSTINV3", "NSE", "CANBK-EQ", 1, 0, "LMT", 220.0, "java", null, null, null, null, null, null, null); 
         System.out.println(reply.toString());
         
         //String newprice_type,Double newprice,Double newtrigger_price,Double bookloss_price, Double bookprofit_price , Double trail_price)
-        JSONObject test= api.modify_order("22122800000006","NSE","AARVI-EQ",50,"DS",610.0, 0.0, 0.0 ,0.0 , 0.0); 
+        JSONObject test= api.modify_order("22122800000006","NSE","AARVI-EQ",50,"DS",610.0, 0.0, 0.0 ,0.0 , 0.0,"DEMO"); 
         System.out.println(test.toString());
         
         JSONArray book; 
