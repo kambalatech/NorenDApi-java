@@ -20,7 +20,7 @@ public class NorenDExampleApp {
         System.out.println("Hello and Welcome to Noren!");
         NorenDApiJava api = new com.noren.javaapi.NorenDApiJava("https://rama.kambala.co.in/DealerWClient/");
         
-        String response = api.login("TSTDLR1", "YGb@765", "RRRRR1997R", "Krishna_DAPI", "krishpernad123", "java-");
+        String response = api.login("TSTDLR1", "Abc@123", "RRRRR1997R", "Krishna_DAPI", "krishpernad123", "java-");
         System.out.println(response);
             
         
@@ -28,7 +28,7 @@ public class NorenDExampleApp {
         System.out.println(securityinfo.toString());
 
         
-        JSONObject reply = api.place_order("B","C","TSTINV3", "NSE", "CANBK-EQ", 1, 0, "LMT", 220.0, "java", null, null, null, null, null, null, null); 
+        JSONObject reply = api.place_order("B","C","TSTINV3", "NSE", "CANBK-EQ", 1, 0, "LMT", 220.0, "java", null, null, null, null, null, null, null, null, null); 
         System.out.println(reply.toString());
         
         //String newprice_type,Double newprice,Double newtrigger_price,Double bookloss_price, Double bookprofit_price , Double trail_price)

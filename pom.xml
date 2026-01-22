@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.kspl.norenexampleapp</groupId>
     <artifactId>NorenDExampleApp</artifactId>
-    <version>1.1.0</version>
+    <version>1.0.2</version>
     <repositories>
     <repository>
     <id>data-local</id>
     <name>data</name>
-    <url>file://home/ubuntu/workspace/java-dealerApi/NorenDApi-java/dist/NorenDWrapperApi-java-1.0.0.jar</url>
+    <url>file://home/ubuntu/workspace/java-dealerApi/NorenDApi-java/dist/NorenDWrapperApi-java-1.0.2.jar</url>
     </repository>
     </repositories>
     <dependencies>
@@ -25,7 +25,7 @@
         <dependency>
             <groupId>com.noren.javaapi</groupId>
             <artifactId>NorenDWrapperApi-java</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.2</version>
         </dependency>
     </dependencies>
     <properties>
